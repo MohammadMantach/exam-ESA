@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  width: 70%;
+  height: 4rem;
+  background-color: rgb(1, 165, 194);
+  margin: 2% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 1% 1% 1% 1% /10% 10% 10% 10%;
+}
+
+.btnhead {
+  width: 110% !important;
+}
+.container1 {
+  margin-left: 6%;
+}
+#btn2 {
+  background-color: rgb(255, 183, 0) !important;
+  border: none;
+}
+.containersrch{
+    margin-left: 2.6%;
+}
+.containersrch >div {margin-top: 3%;}
+#delbtn {
+  background-color: rgb(255, 183, 0) !important;
+  border: none;
+}
+.highlight {
+  background-color: red !important;
+  border: none !important;
+}
+.none{display: none !important;}
+.data {
+  width: 70%;
+  background-color: rgb(1, 165, 194);
+  margin: 4% auto;
+}
+.container {
+  display: flex;
+  width: 95%;
+  margin-top: 1%;
+  justify-content: space-between;
+}
+.container > div {
+  width: 30%;
+  padding: 1%;
+  background-color: rgb(80, 141, 0);
+}
+.container > span {
+  margin-top: 3%;
+  width: 30%;
+}
+#legumes > button {
+  background-color: rgb(255, 77, 61);
+  border: none;
+}
+#fruits > button {
+  background-color: rgb(61, 255, 177);
+  border: none;
+
+}
